@@ -19,9 +19,11 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+// use the public folder for any web assets (css, javascript, etc)
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
+app.use('/', indexRouter); // use this index router instead
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
@@ -42,4 +44,4 @@ app.use(function(err, req, res, next) {
 
 app.listen(port, ()=> {
   console.log(`app is running on port ${port}`);
-})
+});
