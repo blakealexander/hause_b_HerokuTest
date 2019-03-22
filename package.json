@@ -12,5 +12,20 @@
     "hbs": "~4.0.1",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakealexander/hause_b_HerokuTest.git"
+  },
+  "author": "blake hause",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakealexander/hause_b_HerokuTest/issues"
+  },
+  "homepage": "https://github.com/blakealexander/hause_b_HerokuTest#readme",
+  "description": ""
 }
