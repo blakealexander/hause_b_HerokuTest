@@ -1,5 +1,13 @@
 body{
-    background: $bg-color;
+    // background: transparent;
     color: $text-color;
     font-size: 14px;
+}
+
+.container{
+    background: url(../../public/images/nightstand.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
