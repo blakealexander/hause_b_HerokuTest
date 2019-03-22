@@ -11,9 +11,9 @@ router.get('/', function(req, res, next) {
 });
 
 // get a dynamic user via the route parameter
-router.get('/:user', function(req, res, next) {
-  console.log('user', req.params.user);
-  res.render('userpage', data[req.params.user]);
+router.get('/:product', function(req, res, next) {
+  console.log('product', req.params.product);
+  res.render('productpage', data[req.params.product]);
 });
 
 module.exports = router;
