@@ -3,15 +3,17 @@ const data = {
     role: "Student",
 
     product1: {
-        name: "The Product",
-        role: "The Only One Night Stand",
+
+        name: "Night Stand",
+        role: "The perfect one night stand.",
         bio: "some generic bio text",
         bioPic: "arrival.jpg"
     },
 
     product2: {
-        name: "The Details.",
-        role: "How this one night stand works.",
+
+        name: "Night Stand",
+        role: "developer",
         bio: "some generic bio text for user 2",
         bioPic: "logan.jpg"
     }
