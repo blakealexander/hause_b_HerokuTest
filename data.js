@@ -2,15 +2,15 @@ const data = {
     name: "Blake",
     role: "Student",
 
-    user1: {
-        name: "user1",
-        role: "designer",
+    product1: {
+        name: "Night Stand",
+        role: "The perfect one night stand.",
         bio: "some generic bio text",
         bioPic: "arrival.jpg"
     },
 
-    user2: {
-        name: "user2",
+    product2: {
+        name: "Night Stand",
         role: "developer",
         bio: "some generic bio text for user 2",
         bioPic: "logan.jpg"
