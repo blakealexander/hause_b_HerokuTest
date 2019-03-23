@@ -6,14 +6,14 @@ const data = {
         name: "the most intelligent night stand.",
         role: "The Only One Night Stand",
         bio: "some generic bio text",
-        bioPic: "arrival.jpg"
+        bioPic: "nightstandLight.jpg"
     },
 
     product2: {
         name: "The Details.",
         role: "How this one night stand works.",
         bio: "some generic bio text for user 2",
-        bioPic: "logan.jpg"
+        bioPic: "nightstandcolor.jpg"
     }
 }
 
