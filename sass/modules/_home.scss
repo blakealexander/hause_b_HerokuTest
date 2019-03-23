@@ -1,13 +1,31 @@
 body{
-    // background: transparent;
+    background: url(/images/nightstand.jpg) no-repeat center center fixed;
     color: $text-color;
-    font-size: 14px;
+    // font-size: 14px;
+    // width: 100%;
+    // max-height: 100vh;
+    
 }
 
-.container{
-    background: url(../../public/images/nightstand.jpg) no-repeat center center fixed; 
+#landingPage{
+    // background: url(/images/nightstand.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	position: relative;
+	// display: -webkit-box;
+	// display: -ms-flexbox;
+    // display: flex;
+    display: block;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+h1 {
+ font-size: 20px;
 }

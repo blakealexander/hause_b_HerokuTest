@@ -2,14 +2,26 @@
 @import 'modules/_home';
 @import 'modules/_user';
 @import 'modules/_menu';
+@import 'modules/_reset';
+@import 'modules/_about';
+
+
+html, body {
+    height: 100%;
+    background-color: black;
+}
 
 a {
     text-decoration: none;
-    color: red;
+    color: grey;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
-    color: blue;
+    color: grey;
+}
+
+section {
+    height: 100vh;
 }
