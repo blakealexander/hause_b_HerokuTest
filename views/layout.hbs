@@ -18,7 +18,7 @@
     <span></span>
     <ul id="menu">
       <a href="/"><li>Home</li></a>
-      <a href="aboutSection"><li>About</li></a>
+      <a href="#aboutSection"><li>About</li></a>
     </ul>
   </div>
 </nav>
@@ -26,7 +26,7 @@
 <section id="landingPage">
 <div class="container">
     {{!-- This is really the index page. --}}
-    <h1>The perfect one night stand.</h1>
+    <h1>The only one night stand you need in life.</h1>
     {{!-- triple handlebars is a shorthand for a router-view --}}
     {{!-- {{{body}}} --}}
 
@@ -36,9 +36,9 @@
  <a href="/product2">Product 2</a> --}}
 </section>
 <section id="aboutSection">
-  <h1>Our Products</h1>
-  <a href="/product1">Product 1</a>
- <a href="/product2">Product 2</a>
+  <h1>Our Product</h1>
+  <a href="/product1" id="productBtn">Product 1</a>
+  <a href="/product2" id="productBtn">Product 2</a>
  {{{body}}}
 </section>
  

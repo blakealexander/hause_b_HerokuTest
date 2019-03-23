@@ -1,5 +1,6 @@
 body{
-    background: url(/images/nightstand.jpg) no-repeat center center fixed;
+    background: url(/images/nightstand.jpg) no-repeat;
+    background-size: cover;
     color: $text-color;
     // font-size: 14px;
     // width: 100%;
@@ -29,6 +30,15 @@ body{
 
 }
 
-h1 {
- font-size: 20px;
+.container h1 {
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+//  margin-top: 10%;
+
+ @media screen and (max-width: 480px) {
+    top: 200px;
+    // margin-top: 25%;
+    // line-height: 50%;
+   }
 }

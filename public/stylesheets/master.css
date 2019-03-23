@@ -1,5 +1,6 @@
 body {
-  background: url(/images/nightstand.jpg) no-repeat center center fixed;
+  background: url(/images/nightstand.jpg) no-repeat;
+  background-size: cover;
   color: grey;
 }
 @media screen and (max-width: 480px) {
@@ -22,10 +23,11 @@ body {
   overflow: hidden;
 }
 
-h1 {
-  font-size: 20px;
+.container h1 {
+  position: relative;
+  top: 50px;
+  font-size: 40px;
 }
-
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -160,7 +162,7 @@ a:hover {
 }
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -212,11 +214,31 @@ table {
 
 #aboutSection {
   background-color: white;
+  text-align: center;
+}
+
+#productBtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#productBtn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 html, body {
   height: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 a {
