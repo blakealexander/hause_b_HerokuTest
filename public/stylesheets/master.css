@@ -2,6 +2,11 @@ body {
   background: url(/images/nightstand.jpg) no-repeat center center fixed;
   color: grey;
 }
+@media screen and (max-width: 480px) {
+  body {
+    background: url(/images/nighttablesmall.jpg) no-repeat center center fixed;
+  }
+}
 
 #landingPage {
   -webkit-background-size: cover;
